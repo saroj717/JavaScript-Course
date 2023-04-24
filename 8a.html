@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      /*const product = {
+        name: 'basketball',
+        price: 2095,
+      };
+  
+      console.log(product.price);
+      product.price = ( 2095 + 500);
+  
+      console.log(product.price);
+      product(['delivery-time'] = '3 days');
+      console.log(product['delivery-time']);*/
+  
+
+
+
+      /*function comparePrice(product1, product2) {
+        if (product1.price < product2.price) {
+          return product1;
+        } else {
+          return product2;
+        }}
+        
+        const product1 = {
+          name: 'basketball',
+          price: 2050
+        };
+
+        const product2 = {
+          name: 'socks',
+          price: 1090
+        };
+  
+      
+
+      console.log(comparePrice(product1, product2));*/
+
+
+
+      function isSameProduct(product1, product2) {
+        if (product1.name === product2.name || product1.price === product2.price) {
+          return true;
+        } else {
+          return false;
+        }
+      };
+
+      const product1 = {
+        name: 'socks',
+        price: 2051
+      };
+
+      const product2 = {
+        name: 'socks',
+        price: 2050
+      }
+
+      console.log(isSameProduct(product1, product2));
+    
+      console.log('Good Morning'.toUpperCase());
+
+      console.log('hello '.repeat(2));
+      console.log('test'.repeat(3));
+    </script>
+
+
+
+  </body>
+
+</html>
+
